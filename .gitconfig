@@ -1,0 +1,9 @@
+[user]
+	email = k.loiseauand@gmail.com
+	name = KevinLoiseau
+	signingkey = 4097C11AE04699E4E16B42141980A300C3CF754A
+[core]
+	pager = cat
+	editor = vim
+[commit]
+	gpgsign = true

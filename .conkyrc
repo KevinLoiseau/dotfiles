@@ -1,0 +1,7 @@
+out_to_x no
+out_to_console yes
+update_interval 1.0
+total_run_times 0
+use_spacer none
+TEXT
+Up: ${uptime_short} | RAM: $memperc% | CPU: ${cpu}% | LOAD AVG: $loadavg | Battery remaining: ${execi 60 acpi -b | awk '{print$5}'} ${alignr} (${execi 60 acpi -b | awk '{print $4}' | cut -b -3})
