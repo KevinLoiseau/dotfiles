@@ -9,7 +9,7 @@ export EDITOR=vim
 eval "$(rbenv init -)"
 export GEM_HOME=$(ruby -e 'print Gem.user_dir')
 
-export PATH="/usr/local/bin:$GEM_HOME/bin:$HOME/bin:$HOME/.rbenv/bin:$PATH"
+export PATH="/usr/local/bin:$GEM_HOME/bin:$HOME/bin:$HOME/.rbenv/bin:$PATH:$HOME/.npm-global/bin"
 
 # handle only one ssh-agent
 if ! pgrep -u "$USER" ssh-agent > /dev/null; then
